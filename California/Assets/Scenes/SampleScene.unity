@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 526390000}
   - component: {fileID: 526390002}
   - component: {fileID: 526390001}
+  - component: {fileID: 526390003}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -311,6 +312,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526389999}
   m_CullTransparentMesh: 1
+--- !u!114 &526390003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526389999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19581219dd1dc52409da85230beaff24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogText: {fileID: 557113136}
+  text: 'Discover a fire accident
+
+    -------analyzing-------
+
+    Location:Forest
+
+    Type:Forest
+    fire
+
+    ------processing------
+
+    Sending to the Fire Station...
+
+    Sending
+    successfully
+
+'
 --- !u!1 &557113134
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +353,6 @@ GameObject:
   - component: {fileID: 557113135}
   - component: {fileID: 557113137}
   - component: {fileID: 557113136}
-  - component: {fileID: 557113138}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -450,36 +480,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557113134}
   m_CullTransparentMesh: 1
---- !u!114 &557113138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557113134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19581219dd1dc52409da85230beaff24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogText: {fileID: 0}
-  text: 'Discover a fire accident
-
-    -------analyzing-------
-
-    Location:Forest
-
-    Type:Forest
-    fire
-
-    ------processing------
-
-    Sending to the Fire Station...
-
-    Sending
-    successfully
-
-'
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
